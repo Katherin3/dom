@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .active {
+            background-color: green;
+            color: white;
+            padding: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .dark {
+            background-color: black;
+            color: white;
+        }
+
+        .completed {
+            text-decoration: line-through;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="title">Old Title</h1>
+
+    <p>First paragraph</p>
+    <p>Second paragraph</p>
+
+    <ul>
+        <li class="item">HTML</li>
+        <li class="item">CSS</li>
+        <li class="item">JavaScript</li>
+    </ul>
+
+
+    <p id="message">Change my color</p>
+    <button id="changeColorBtn">Change Color</button>
+
+
+    <div id="box">Box</div>
+    <button id="changeBackgroundBtn">Change Background</button>
+
+    <div id="card">Card</div>
+    <button id="activateBtn">Activate</button>
+
+
+    <div id="content" class="hidden">Hidden content</div>
+    <button id="showBtn">Show Content</button>
+
+    <div id="themeBox">Theme Box</div>
+    <button id="toggleThemeBtn">Toggle Theme</button>
+
+    <ul id="technologies">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <br>
+
+    <div id="notification">You have a new message</div>
+    <button id="removeBtn">Remove Notification</button>
+    <br>
+
+    <img id="photo" src="old-image.jpg" alt="Old image">
+    <button id="changeImageBtn">Change Image</button>
+    <br>
+
+    <a id="websiteLink" href="https://example.com">Visit Website</a>
+    <br>
+
+    <input id="usernameInput" type="text" placeholder="Enter username">
+    <button id="submitBtn">Submit</button>
+    <br>
+
+    <input id="nameInput" type="text" placeholder="Enter your name">
+    <button id="greetBtn">Greet</button>
+    <p id="result"></p>
+    <br>
+
+    <p id="counter">0</p>
+    <button id="increaseBtn">Increase</button>
+    <br>
+
+
+    <p id="description">This text can be hidden.</p>
+    <button id="toggleBtn">Hide / Show</button>
+    <br>
+
+    <input id="productInput" type="text" placeholder="Enter product">
+    <button id="addProductBtn">Add Product</button>
+    <ul id="productList"></ul>
+    <br>
+
+    <ul id="taskList">
+        <li>
+            Learn HTML
+            <button class="deleteBtn">Delete</button>
+        </li>
+
+        <li>
+            Learn CSS
+            <button class="deleteBtn">Delete</button>
+        </li>
+
+        <li>
+            Learn JavaScript
+            <button class="deleteBtn">Delete</button>
+        </li>
+    </ul>
+    <br>
+
+    <form id="emailForm">
+        <input id="emailInput" type="email" placeholder="Enter email">
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="emailResult"></p>
+    <br>
+
+    <input id="todoInput" type="text" placeholder="Enter task">
+    <button id="addTodoBtn">Add Task</button>
+
+    <ul id="todoList"></ul>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
